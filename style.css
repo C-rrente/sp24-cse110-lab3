@@ -18,5 +18,15 @@ h3 {
 
 
 li,p,label {
-    color: #928374;
+    color: #a89984;
+}
+
+body {
+    background-color: #282828;
+}
+
+input {
+    color: #b16286;
+    background-color: #3c3836;
+    border-color: #504945;
 }
