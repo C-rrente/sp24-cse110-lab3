@@ -1,1 +1,21 @@
 /* This will be where the style gets snazzy*/
+/* For this I will be using my all-time favorite color scheme
+   Hopefully get it to match and look nice */
+/* https://github.com/morhetz/gruvbox */
+
+h1 {
+    color: #CC241D;
+}
+
+h2 {
+    color: #98971a;
+}
+
+h3 {
+    color: #458588;
+}
+
+
+li,p,label {
+    color: #928374;
+}
