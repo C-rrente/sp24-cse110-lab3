@@ -30,3 +30,9 @@ input {
     background-color: #3c3836;
     border-color: #504945;
 }
+
+
+/* This section is for class styles */
+.attending {
+    text-align: center;
+}
