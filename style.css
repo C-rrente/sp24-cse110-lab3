@@ -6,33 +6,40 @@
 h1 {
     color: #CC241D;
     color: rgba(204, 36, 29, 1);
+    font-size: 28px;
 }
 
 h2 {
     color: #98971a;
+    padding-left: 2vw;
+    font-size: 24px;
 }
 
 h3 {
     color: #458588;
+    padding-left: 4vw;
 }
 
 
 li,p,label {
     color: #a89984;
+    translate: 5vw;
+    font-size: 16px;
 }
 
 body {
     background-color: #282828;
 }
 
-input {
+input[type=date] {
     color: #b16286;
     background-color: #3c3836;
     border-color: #504945;
+    translate: 5vw;
 }
 
 
 /* This section is for class styles */
 .attending {
-    text-align: center;
+    padding-left: 5vw;
 }
