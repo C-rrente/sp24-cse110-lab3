@@ -7,6 +7,7 @@ h1 {
     color: #CC241D;
     color: rgba(204, 36, 29, 1);
     font-size: 28px;
+    position: static;
 }
 
 h2 {
@@ -50,6 +51,7 @@ img {
     display: inline;
     max-width: 640px;
     max-height: 480px;
+    position: relative;
 }
 
 /* This section is for class styles */
