@@ -13,11 +13,13 @@ h2 {
     color: #98971a;
     padding-left: 2vw;
     font-size: 24px;
+    margin-top: 15px;
 }
 
 h3 {
     color: #458588;
     padding-left: 4vw;
+    margin: 5px, 1px, 5px, 1px;
 }
 
 
@@ -25,6 +27,7 @@ li,p,label {
     color: #a89984;
     translate: 5vw;
     font-size: 16px;
+    margin: auto;
 }
 
 body {
@@ -35,7 +38,11 @@ input[type=date] {
     color: #b16286;
     background-color: #3c3836;
     border-color: #504945;
+    border-radius: 1px;
+    border-style: dashed;
+    border-width: 2px;
     translate: 5vw;
+    padding: auto, auto, auto, auto;
 }
 
 
