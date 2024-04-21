@@ -8,6 +8,8 @@ h1 {
     color: rgba(204, 36, 29, 1);
     font-size: 28px;
     position: static;
+    display: grid;
+    grid-area: auto;
 }
 
 h1:hover {
@@ -19,6 +21,8 @@ h2 {
     padding-left: 2vw;
     font-size: 24px;
     margin-top: 15px;
+    display: grid;
+    grid-area: auto;
 }
 
 h2:active {
@@ -39,6 +43,12 @@ li,p,label {
     margin: auto;
 }
 
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 body {
     background-color: #282828;
     display: inline-block;
@@ -56,10 +66,23 @@ input[type=date] {
 }
 
 img {
-    display: inline;
+    display: flex;
     max-width: 640px;
     max-height: 480px;
     position: relative;
+    display: flex;
+    flex-shrink: inherit;
+}
+
+video {
+    display: grid;
+    grid-area: auto;
+    grid-row: auto;
+}
+
+audio {
+    display: grid;
+    grid-column: auto;
 }
 
 /* This section is for class styles */
