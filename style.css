@@ -3,32 +3,13 @@
    Hopefully get it to match and look nice */
 /* https://github.com/morhetz/gruvbox */
 
-.jersey-25-regular {
-    font-family: "Jersey 25", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 
-.jersey-20-regular {
-    font-family: "Jersey 20", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+@media (max-width <= 640) {
+    /* */
 }
 
-.jersey-15-regular {
-    font-family: "Jersey 15", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
 
-.jersey-15-charted-regular {
-    font-family: "Jersey 15 Charted", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
 h1 {
     color: #CC241D;
     color: rgba(204, 36, 29, 1);
@@ -71,12 +52,14 @@ li,p,label {
     font-size: 16px;
     font-family:"Jersey 15" ;
     margin: auto;
+    max-width: 100%;
 }
 
 p {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    max-width: 75%;
 }
 
 body {
@@ -97,8 +80,8 @@ input[type=date] {
 
 img {
     display: flex;
-    max-width: 640px;
-    max-height: 480px;
+    max-width: 100%;
+    max-height: 100%;
     position: relative;
     display: flex;
     flex-shrink: inherit;
@@ -108,6 +91,7 @@ video {
     display: grid;
     grid-area: auto;
     grid-row: auto;
+    max-width: 100%;
 }
 
 audio {
@@ -119,3 +103,30 @@ audio {
 .attending {
     padding-left: 5vw;
 }
+
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.jersey-15-charted-regular {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
