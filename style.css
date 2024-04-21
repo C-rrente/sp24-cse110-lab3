@@ -10,11 +10,19 @@ h1 {
     position: static;
 }
 
+h1:hover {
+    color: #3c3836;
+}
+
 h2 {
     color: #98971a;
     padding-left: 2vw;
     font-size: 24px;
     margin-top: 15px;
+}
+
+h2:active {
+    color: #b16286;
 }
 
 h3 {
