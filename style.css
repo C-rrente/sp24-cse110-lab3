@@ -48,6 +48,8 @@ input[type=date] {
 
 img {
     display: inline;
+    max-width: 640px;
+    max-height: 480px;
 }
 
 /* This section is for class styles */
