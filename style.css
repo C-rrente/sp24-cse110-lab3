@@ -1,0 +1,170 @@
+/* This will be where the style gets snazzy*/
+/* For this I will be using my all-time favorite color scheme
+   Hopefully get it to match and look nice */
+/* https://github.com/morhetz/gruvbox */
+
+
+* {
+    kerning: auto;
+}
+
+
+@media (max-width <= 640) {
+    /* */
+}
+
+h1 {
+    color: #CC241D;
+    color: rgba(204, 36, 29, 1);
+    font-size: 28px;
+    position: static;
+    display: grid;
+    grid-area: auto;
+    font-family: "Jersey 20";
+}
+
+h1:has(+ h2) {
+    margin-bottom: 0;
+}
+
+h1:hover {
+    color: #3c3836;
+}
+
+h2 {
+    color: #98971a;
+    padding-left: 2vw;
+    font-size: 24px;
+    margin-top: 15px;
+    display: grid;
+    grid-area: auto;
+    font-family: "Jersey 15";
+}
+
+h2:active {
+    color: #b16286;
+}
+
+h3 {
+    color: #458588;
+    padding-left: 4vw;
+    margin: 5px, 1px, 5px, 1px;
+    font-family: "Jersey 15 Charted";
+}
+
+h2 + h3 {
+    padding: auto;
+}
+
+li,p,label {
+    color: #a89984;
+    translate: 5vw;
+    font-size: 16px;
+    font-family:"Jersey 15" ;
+    margin: auto;
+    max-width: 100%;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+body {
+    background-color: #282828;
+    display: inline-block;
+}
+
+input[type=date] {
+    color: #b16286;
+    background-color: #3c3836;
+    border-color: #504945;
+    border-radius: 1px;
+    border-style: dashed;
+    border-width: 2px;
+    translate: 5vw;
+    padding: auto, auto, auto, auto;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    flex-shrink: inherit;
+}
+
+video > img {
+    display: grid;
+}
+
+video {
+    display: grid;
+    grid-area: auto;
+    grid-row: auto;
+    max-width: 100%;
+}
+
+video audio {
+    display: grid;
+}
+
+audio {
+    display: grid;
+    grid-column: auto;
+}
+
+audio ~ video {
+    padding: auto;
+}
+
+ul {
+    padding: auto;
+    
+    .list{
+        color: #98971a;
+    }
+}
+
+/* This section is for class styles */
+p.yoink {
+    color: #b16286;
+}
+
+.attending {
+    padding-left: 5vw;
+}
+
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.jersey-15-charted-regular {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+#brain {
+    contain: content;
+}
