@@ -3,6 +3,32 @@
    Hopefully get it to match and look nice */
 /* https://github.com/morhetz/gruvbox */
 
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.jersey-15-charted-regular {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 h1 {
     color: #CC241D;
     color: rgba(204, 36, 29, 1);
@@ -10,6 +36,7 @@ h1 {
     position: static;
     display: grid;
     grid-area: auto;
+    font-family: "Jersey 20";
 }
 
 h1:hover {
@@ -23,6 +50,7 @@ h2 {
     margin-top: 15px;
     display: grid;
     grid-area: auto;
+    font-family: "Jersey 15";
 }
 
 h2:active {
@@ -33,6 +61,7 @@ h3 {
     color: #458588;
     padding-left: 4vw;
     margin: 5px, 1px, 5px, 1px;
+    font-family: "Jersey 15 Charted";
 }
 
 
@@ -40,6 +69,7 @@ li,p,label {
     color: #a89984;
     translate: 5vw;
     font-size: 16px;
+    font-family:"Jersey 15" ;
     margin: auto;
 }
 
