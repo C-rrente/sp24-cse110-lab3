@@ -50,7 +50,7 @@ h2:active {
 h3 {
     color: #458588;
     padding-left: 4vw;
-    margin: 5px, 1px, 5px, 1px;
+    margin: 5px 1px 5px 1px;
     font-family: "Jersey 15 Charted";
 }
 
@@ -60,7 +60,6 @@ h2 + h3 {
 
 li,p,label {
     color: #a89984;
-    translate: 5vw;
     font-size: 16px;
     font-family:"Jersey 15" ;
     margin: auto;
@@ -86,8 +85,7 @@ input[type=date] {
     border-radius: 1px;
     border-style: dashed;
     border-width: 2px;
-    translate: 5vw;
-    padding: 10px, 10px, 10px, 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 img {
@@ -125,12 +123,11 @@ audio ~ video {
 
 ul {
     padding: 10px;
-    
-    .list{
-        color: #98971a;
-    }
 }
 
+ul .list {
+    color: #98971a;
+}
 /* This section is for class styles */
 p.yoink {
     color: #b16286;
